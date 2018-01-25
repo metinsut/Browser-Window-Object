@@ -1,0 +1,25 @@
+.sprite-main {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url("../img/common/sprite.png");
+  cursor: pointer;
+}
+@each $bg, $width, $height, $x, $y in
+                (fb, 32, 26, 0, 0),
+                (twitter, 32, 26, 32, 0),
+                (linkedin, 32, 26, 64, 0),
+                (youtube, 32, 26, 96, 0),
+                (leftArr, 20, 9, 0, 52),
+                (rightArr, 20, 9, 20, 52),
+                (homeIcon, 17, 17, 0, 63),
+                (selectArr, 22, 16, 19, 64),
+
+{
+  .#{$bg} {
+    @extend .sprite-main;
+    background-position: -#{$x}px -#{$y}px;
+    width: #{$width}px;
+    height: #{$height}px;
+  }
+}

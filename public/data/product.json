@@ -1,0 +1,51 @@
+{
+  "success": {
+    "items": [
+      {
+        "title": "Page One",
+        "link": "/one",
+        "longLink": "/detail/one",
+        "class": "partOne",
+        "name": "One",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate dicta eius iste maiores, porro quidem reprehenderit! Autem blanditiis, cum debitis doloribus facere id illum laboriosam libero, nulla officiis placeat quam quis recusandae rerum similique tempora totam vitae? Culpa, debitis, quae! Earum eos in minus nostrum perferendis praesentium qui, rerum?",
+        "img":"./img/resim1.png"
+      },
+      {
+        "title": "Page Two",
+        "link": "/two",
+        "longLink": "/detail/two",
+        "class": "partTwo",
+        "name": "Two",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate dicta eius iste maiores, porro quidem reprehenderit! Autem blanditiis, cum debitis doloribus facere id illum laboriosam libero, nulla officiis placeat quam quis recusandae rerum similique tempora totam vitae? Culpa, debitis, quae! Earum eos in minus nostrum perferendis praesentium qui, rerum?",
+        "img":"./img/resim2.jpg"
+      },
+      {
+        "title": "Page Three",
+        "link": "/three",
+        "longLink": "/detail/three",
+        "class": "partThree",
+        "name": "Three",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate dicta eius iste maiores, porro quidem reprehenderit! Autem blanditiis, cum debitis doloribus facere id illum laboriosam libero, nulla officiis placeat quam quis recusandae rerum similique tempora totam vitae? Culpa, debitis, quae! Earum eos in minus nostrum perferendis praesentium qui, rerum?",
+        "img":"./img/resim3.jpg"
+      },
+      {
+        "title": "Page Four",
+        "link": "/four",
+        "longLink": "/detail/four",
+        "class": "partFour",
+        "name": "Four",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate dicta eius iste maiores, porro quidem reprehenderit! Autem blanditiis, cum debitis doloribus facere id illum laboriosam libero, nulla officiis placeat quam quis recusandae rerum similique tempora totam vitae? Culpa, debitis, quae! Earum eos in minus nostrum perferendis praesentium qui, rerum?",
+        "img":"./img/resim4.jpg"
+      },
+      {
+        "title": "Page Five",
+        "link": "/five",
+        "longLink": "/detail/five",
+        "class": "partFive",
+        "name": "Five",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate dicta eius iste maiores, porro quidem reprehenderit! Autem blanditiis, cum debitis doloribus facere id illum laboriosam libero, nulla officiis placeat quam quis recusandae rerum similique tempora totam vitae? Culpa, debitis, quae! Earum eos in minus nostrum perferendis praesentium qui, rerum?",
+        "img":"./img/resim5.jpg"
+      }
+    ]
+  }
+}

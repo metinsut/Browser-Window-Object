@@ -1,0 +1,35 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: teal;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  position: fixed;
+  z-index: 10;
+  h1 {
+    @include font-style(5em,$mc);
+    @include Roboto-Medium;
+  }
+  .links {
+    margin: 0 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    @include Roboto-Regular;
+    @include font-style(2em, #fafafa);
+    &.active {
+      color:sandybrown;
+    }
+  }
+
+  a:hover {
+    color: darkorange;
+  }
+
+}
